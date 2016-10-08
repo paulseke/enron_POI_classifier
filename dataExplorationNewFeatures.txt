@@ -1,0 +1,5 @@
+number of persons ratio_from_poi_to_all_from_emails : 77
+number of POI: 18
+ 
+number of persons ratio_to_poi_to_all_sent_emails : 78
+number of POI: 18

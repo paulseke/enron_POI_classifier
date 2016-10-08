@@ -1,0 +1,52 @@
+score_labels with K-best selector 
+
+- before scaling: 
+[[11.776269890541336, 'salary', 0],
+ [3.4231880177277425, 'to_messages', 1],
+ [0.046297574775235696, 'deferral_payments', 2],
+ [8.0860250906720896, 'total_payments', 3],
+ [18.063261726294517, 'exercised_stock_options', 4],
+ [23.82368507066602, 'bonus', 5],
+ [6.7846914520134183, 'restricted_stock', 6],
+ [7.9910739085792963, 'shared_receipt_with_poi', 7],
+ [17.318473219591144, 'total_stock_value', 8],
+ [3.0277495726079695, 'expenses', 9],
+ [0.44346060262697046, 'from_messages', 10],
+ [3.8033174746989564, 'other', 11],
+ [0.098866085514436985, 'from_this_person_to_poi', 12],
+ [7.5131803946850821, 'deferred_income', 13],
+ [5.8722732756367959, 'long_term_incentive', 14],
+ [4.2787988778978452, 'from_poi_to_this_person', 15],
+ [0.23267649045411326, 'index', 16],
+ [0.51129751170494464, 'ratio_from_poi_to_all_from_emails', 17],
+ [nan, 'ratio_to_poi_to_all_sent_emails', 18]]
+
+
+- after scaling:
+[[20.159242339717046, 'salary', 0],
+ [0.95195888036223275, 'to_messages', 1],
+ [0.62498403302111638, 'ratio_to_poi_to_all_sent_emails', 2],
+ [0.56674548581874329, 'ratio_from_poi_to_all_from_emails', 3],
+ [0.86433480241821226, 'deferral_payments', 4],
+ [11.48546392067748, 'total_payments', 5],
+ [1.260569265962652, 'index', 6],
+ [30.093499632987893, 'bonus', 7],
+ [4.227541562441135, 'deferred_income', 8],
+ [32.288351813335687, 'total_stock_value', 9],
+ [5.6046411985192108, 'shared_receipt_with_poi', 10],
+ [33.465680462507109, 'exercised_stock_options', 11],
+ [0.015396577650012906, 'from_messages', 12],
+ [4.357891542573328, 'other', 13],
+ [3.7495636059001312, 'from_this_person_to_poi', 14],
+ [16.680570532394171, 'long_term_incentive', 15],
+ [2.6873736283436087, 'expenses', 16],
+ [11.027816980321198, 'restricted_stock', 17],
+ [7.5761647353819068, 'from_poi_to_this_person', 18]]
+
+
+
+
+
+
+
+

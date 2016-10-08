@@ -1,0 +1,85 @@
+number of persons in the dataset: 144
+number of features per person: 21
+number of poi: 18
+ 
+missing data in 0 salary : 49
+available data in 0 salary : 95
+available POI in 0 salary : 17
+ 
+missing data in 1 to_messages : 58
+available data in 1 to_messages : 86
+available POI in 1 to_messages : 14
+ 
+missing data in 2 deferral_payments : 105
+available data in 2 deferral_payments : 39
+available POI in 2 deferral_payments : 5
+ 
+missing data in 3 total_payments : 20
+available data in 3 total_payments : 124
+available POI in 3 total_payments : 18
+ 
+missing data in 4 exercised_stock_options : 42
+available data in 4 exercised_stock_options : 102
+available POI in 4 exercised_stock_options : 12
+ 
+missing data in 5 bonus : 62
+available data in 5 bonus : 82
+available POI in 5 bonus : 16
+ 
+missing data in 6 restricted_stock : 34
+available data in 6 restricted_stock : 110
+available POI in 6 restricted_stock : 17
+ 
+missing data in 7 restricted_stock_deferred : 126
+available data in 7 restricted_stock_deferred : 18
+available POI in 7 restricted_stock_deferred : 0
+ 
+missing data in 8 deferred_income : 95
+available data in 8 deferred_income : 49
+available POI in 8 deferred_income : 11
+ 
+missing data in 9 total_stock_value : 18
+available data in 9 total_stock_value : 126
+available POI in 9 total_stock_value : 18
+ 
+missing data in 10 shared_receipt_with_poi : 58
+available data in 10 shared_receipt_with_poi : 86
+available POI in 10 shared_receipt_with_poi : 14
+ 
+missing data in 11 loan_advances : 140
+available data in 11 loan_advances : 4
+available POI in 11 loan_advances : 1
+ 
+missing data in 12 from_messages : 58
+available data in 12 from_messages : 86
+available POI in 12 from_messages : 14
+ 
+missing data in 13 other : 52
+available data in 13 other : 92
+available POI in 13 other : 18
+ 
+missing data in 14 from_this_person_to_poi : 58
+available data in 14 from_this_person_to_poi : 86
+available POI in 14 from_this_person_to_poi : 14
+ 
+missing data in 15 director_fees : 127
+available data in 15 director_fees : 17
+available POI in 15 director_fees : 0
+ 
+missing data in 16 long_term_incentive : 78
+available data in 16 long_term_incentive : 66
+available POI in 16 long_term_incentive : 12
+ 
+missing data in 17 expenses : 49
+available data in 17 expenses : 95
+available POI in 17 expenses : 18
+ 
+missing data in 18 email_address : 33
+available data in 18 email_address : 111
+available POI in 18 email_address : 18
+ 
+missing data in 19 from_poi_to_this_person : 58
+available data in 19 from_poi_to_this_person : 86
+available POI in 19 from_poi_to_this_person : 14
+ 
+number of features remaining after wrangling: 18

@@ -1,0 +1,42 @@
+PCA
+
+- selecting best feature number automatically
+Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components='mle', whiten=False)), ('dtc', DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='random'))])
+        Accuracy: 0.80260       Precision: 0.26821      Recall: 0.27800 F1: 0.27302     F2: 0.27599
+        Total predictions: 15000        True positives:  556    False positives: 1517   False negatives: 1444   True negatives: 11483
+
+
+- selecting the 3 best features
+Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components=3, whiten=False)), ('dtc', DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='random'))])
+        Accuracy: 0.79233       Precision: 0.24226      Recall: 0.26200 F1: 0.25174     F2: 0.25780
+        Total predictions: 15000        True positives:  524    False positives: 1639   False negatives: 1476   True negatives: 11361
+
+
+
+
+## K BEST SELECTION
+
+- no scaling 
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='random'))])
+        Accuracy: 0.81680       Precision: 0.32781      Recall: 0.35600 F1: 0.34132     F2: 0.34998
+        Total predictions: 15000        True positives:  712    False positives: 1460   False negatives: 1288   True negatives: 11540
+
+
+- min-max scaling
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='random')
+	Accuracy: 0.83107	Precision: 0.37225	Recall: 0.38900	F1: 0.38044	F2: 0.38553
+	Total predictions: 15000	True positives:  778	False positives: 1312	False negatives: 1222	True negatives: 11688
+
+
